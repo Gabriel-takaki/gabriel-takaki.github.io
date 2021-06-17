@@ -1,0 +1,18 @@
+h1{ color: rgb(202, 204, 204);
+    box-shadow: black;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    color: rgb(92, 177, 177);
+    font-style: italic;
+}
+
+.fotoperfil img{
+    border-radius: 30%;
+}
+
+body{
+    background-color: rgb(73, 73, 73);
+}

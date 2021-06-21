@@ -1,18 +1,38 @@
-h1{ color: rgb(202, 204, 204);
-    box-shadow: black;
-    font-family: sans-serif;
+body{
+    padding: 3%;
+}
 
+.meuNome {
+    font-family: serif;
+    text-align: center;
+}
+
+#minhafoto {
+    float: left;
+    height: 380px;
+    padding: 10px;
+    background-color: rgb(0, 102, 128);
+}
+
+.frase{
+    font-style: italic;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.imageContainer{
+    height: 400px;
+    position: relative;
 }
 
 h2 {
-    color: rgb(92, 177, 177);
+    color: rgb(231, 231, 231);
     font-style: italic;
-}
-
-.fotoperfil img{
-    border-radius: 30%;
+    padding: 1%;
 }
 
 body{
     background-color: rgb(73, 73, 73);
 }
+

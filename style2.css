@@ -14,7 +14,7 @@ input {
 .imagemDeFundo {
   width: auto;
   position: absolute;
-}
+} 
 
 body {
   background-image: url(backgroundIndex2.jpg);

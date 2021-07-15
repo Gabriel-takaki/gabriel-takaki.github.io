@@ -14,7 +14,16 @@
 html {
     scroll-behavior: smooth;
 }
-
+a{
+  background: rgb(53, 111, 119);
+  border-radius: 6px;
+  padding: 15px;
+  cursor:pointer;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+}
 .hamburguer {
     /*background-color: red;*/
     width: 2rem;
@@ -66,14 +75,14 @@ header {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: rgba( 0, 0, 0, 0, 8);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0, 5;
+    opacity: 0, 10;
     animation: zoom 25s;
 }
 
@@ -360,20 +369,20 @@ header {
     font-family: serif;
     font-size: 2rem;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .card-info h3 {
     font-family: "Baloo Da 2";
     font-weight: bolder;
-    color: rgb(53, 111, 119);
+    color: rgb(42, 125, 138);
     margin-bottom: 1.5rem;
 }
 
 .card-info p {
     font-family: serif;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
     width: 80%;
     margin-bottom: 2rem;
 }

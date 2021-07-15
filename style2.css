@@ -1,0 +1,80 @@
+* {
+  padding: 0%;
+}
+button {
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: rgba(179, 179, 179, 0.596);
+}
+input {
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+.imagemDeFundo {
+  width: auto;
+  position: absolute;
+}
+
+body {
+  background-image: url(backgroundIndex2.jpg);
+}
+#container {
+  background-color: rgb(240, 240, 240);
+  /* border: solid 1px black; */
+  border-radius: 10px;
+  padding-left: 0%;
+  align-items: center;
+  margin: 40px auto;
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding: 3px;
+  box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.cronometro {
+  background-color: rgb(240, 240, 240);
+  /* border: solid 1px black; */
+  border-radius: 10px;
+  padding-left: 0%;
+  align-items: center;
+  margin: 40px auto;
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding: 3px;
+  box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+.reloj {
+  display: inline-block;
+  font-size: 30px;
+}
+.boton {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.exercicios {
+  background-color: rgb(240, 240, 240);
+  /* border: solid 1px black; */
+  border-radius: 10px;
+  padding-left: 0%;
+  align-items: center;
+  margin: 40px auto;
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding: 3px;
+  box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="javascript2.js" type="text/javascript" async></script>
+  </head>
+  <body>
+    <section id="container">
+      <section id="container2">
+        <header>
+          <h1 class="primeiro titulo">
+            Meu plano de estudos.
+          </h1>
+        </header>
+        <p id="funcionamento">Conteúdos do dia.</p>
+        <p id="data"></p>
+        <input type="text" name="" id="texto-tarefa" />
+        <ol id="lista-tarefas"></ol>
+        <button id="criar-tarefa">Adicionar conteúdo</button>
+        <button id="apaga-tudo">Apagar tudo</button>
+        <button id="remover-finalizados">Finalizados</button>
+        <!-- <button id="remover-selecionado">Remover</button> -->
+        <button id="salvar-tarefas"></button>
+      </section>
+    </section>
+
+    <section class="exercicios">
+      <h1>Exercícios para fixação.</h1>
+     <div> <label for="Matéria">Matéria a ser fixada:</label>
+      <input type="text" value="" class="exerc" id="Matéria"></div>
+      <br>
+      <div>
+      <label for="qtdQuestões">Quantidade de questões:</label>
+      <input type="number" value="" class="exerc" id="qtdQuestões">
+    </div>
+    <br>
+    <div>
+      <label for="tempo">Tempo determinado:</label>
+      <input type="time" value="" class="exerc" id="tempo">
+</div>
+    </section>
+
+    <section class="cronometro">
+     
+        <div id="contador">
+            <div class="reloj" id="Horas">00</div>
+            <div class="reloj" id="Minutos">:00</div>
+            <div class="reloj" id="Segundos">:00</div>
+            <div class="reloj" id="Centesimas">:00</div>
+        </div>
+        <div id="botoes">
+            <input type="button" class="boton" id="inicio" value=" &#9658;" onclick="inicio();">
+            <input type="button" class="boton" id="parar" value=" &#8718;" onclick="parar();" disabled>
+            <input type="button" class="boton" id="continuar" value=" &#8634;" onclick="inicio();" disabled>
+            <input type="button" class="boton" id="reinicio" value=" &#8635;" onclick="reinicio();" disabled>
+        </div>
+    </section>
+</html>

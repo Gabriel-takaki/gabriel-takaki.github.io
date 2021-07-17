@@ -1,26 +1,40 @@
 * {
   padding: 0%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 button {
   border: 1px solid #555;
   border-radius: 5px;
   padding: 2px;
-  background-color: rgba(179, 179, 179, 0.596);
+  background-color: #004e7c;
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: small;
+  width: 9rem;
+  height: 1.7rem;
 }
 input {
-  border: 1px solid #555;
+  border: none;
   border-radius: 5px;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+  background-color: #b3b6b838;
+  font-size: medium;
+  text-align: center;
 }
 .imagemDeFundo {
   width: auto;
   position: absolute;
-} 
+}
 
 body {
-  background-image: url(backgroundIndex2.jpg);
+  background-color: #5c5f58;
 }
 #container {
-  background-color: rgb(240, 240, 240);
+  background-color: #dce1e3;
   /* border: solid 1px black; */
   border-radius: 10px;
   padding-left: 0%;
@@ -36,7 +50,7 @@ body {
 }
 
 .cronometro {
-  background-color: rgb(240, 240, 240);
+  background-color: #dce1e3;
   /* border: solid 1px black; */
   border-radius: 10px;
   padding-left: 0%;
@@ -64,7 +78,7 @@ li {
 }
 
 .exercicios {
-  background-color: rgb(240, 240, 240);
+  background-color: #dce1e3;
   /* border: solid 1px black; */
   border-radius: 10px;
   padding-left: 0%;
@@ -77,4 +91,37 @@ li {
   padding: 3px;
   box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
     0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+  font-size: medium;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.resultados {
+  background-color: #dce1e3;
+  /* border: solid 1px black; */
+  border-radius: 10px;
+  padding-left: 0%;
+  align-items: center;
+  margin: 40px auto;
+  width: 80%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding: 5px;
+  box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 25px;
+}
+p{
+  font-size:large;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }

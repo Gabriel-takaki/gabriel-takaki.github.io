@@ -24,24 +24,30 @@
         <button id="apaga-tudo">Apagar tudo</button>
         <button id="remover-finalizados">Finalizados</button>
         <!-- <button id="remover-selecionado">Remover</button> -->
-        <button id="salvar-tarefas"></button>
       </section>
     </section>
 
     <section class="exercicios">
       <h1>Exercícios para fixação.</h1>
-     <div> <label for="Matéria">Matéria a ser fixada:</label>
-      <input type="text" value="" class="exerc" id="Matéria"></div>
+     <div> <label for="Matéria" id="LabelQuery">Matéria a ser fixada:</label>
+      <br>
+      <input type="text" id="materiaExerc" value="">
+      </select>
       <br>
       <div>
       <label for="qtdQuestões">Quantidade de questões:</label>
+      <br>
       <input type="number" value="" class="exerc" id="qtdQuestões">
     </div>
-    <br>
     <div>
-      <label for="tempo">Tempo determinado:</label>
-      <input type="time" value="" class="exerc" id="tempo">
+      <label for="tempo">Tempo esperado(mn):</label>
+      <br>
+      <input type="number" value="" class="exerc" id="tempo">
 </div>
+<br>
+<button>
+  Enviar
+</button>
     </section>
 
     <section class="cronometro">
@@ -58,5 +64,19 @@
             <input type="button" class="boton" id="continuar" value=" &#8634;" onclick="inicio();" disabled>
             <input type="button" class="boton" id="reinicio" value=" &#8635;" onclick="reinicio();" disabled>
         </div>
+    </section>
+    <section class="resultados">
+      <h1>Resultados.</h1>
+       <label for="tempoDemandado">Quantidade de tempo demandado:</label>
+       <br>
+       <input type="number" id="tempoDemandado" class="input1">
+       <br>
+       <br>
+       <label for="">Quantidade de acertos:</label>
+       <br>
+       <input type="number" name="" id="quandtidadeAcertos" class="input1">
+       <br>
+       <br>
+       <button id="Arquivar"> Arquivar dados.</button>
     </section>
 </html>

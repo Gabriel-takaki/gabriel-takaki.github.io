@@ -54,6 +54,20 @@ function removeFinalizados() {
     }
   }
 }
+const botaoEnvia = document.querySelector(".botaoEnvia");
+botaoEnvia.addEventListener("click", envia);
+function envia() {
+  let materiaSelecionada = (document.querySelector("#materiaExerc").value = "");
+  let quantidadeQuestoes = (document.querySelector("#qtdQuestões").value = "");
+  let tempoEsperado = (document.querySelector("#tempo").value = "");
+}
+
+const botaoArquiva = document.querySelector("#arquiva");
+botaoArquiva.addEventListener("click", arquiva);
+function arquiva() {
+  document.querySelector("#tempoDemandado").value = "";
+  document.querySelector("#quantidadeAcertos").value = "";
+}
 
 function criaData() {
   var data = new Date();
@@ -134,5 +148,11 @@ function cronometro() {
       horas = "0" + horas;
     }
     Horas.innerHTML = horas;
+  }
+}
+function mudaColor() {
+  var corDeFundo = document.querySelector(".gradient").style;
+  if (corDeFundo.background == "#eeeeee") {
+    corDeFundo.color = "black";
   }
 }

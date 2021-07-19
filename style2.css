@@ -185,3 +185,6 @@ p {
 /* .primeiro-titulo{
   animation: mudaCorDaFonte 20s ease infinite;
 } */
+.boton{
+  animation: mudaCorDaFonte 20s ease forwards;
+}

@@ -66,12 +66,12 @@ button {
   height: 1.7rem;
 }
 input {
-  color: #ffffff;
+  color: #0c0606;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0.4rem 0.3rem rgba(0, 0, 0, 0.8);
   margin-bottom: 10px;
-  background-color: #b3b6b838;
+  background-color: #c2c2c249;
   font-size: medium;
   text-align: center;
 }

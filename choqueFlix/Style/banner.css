@@ -1,0 +1,146 @@
+.material-icons {
+  font-family: 'Material Icons';
+  /* font-size: 16px; */
+  margin-bottom: 1px;
+  /* line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; */
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background: #1b1c1d;
+  color: rgba(255,255,255,.9);
+  height: 100%;
+}
+
+.banner-img {
+  -webkit-animation: fadein 2s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-div {
+  width: 100%;
+  height: max(92vh, 200px);
+  position: relative;
+  top: 55px;
+}
+
+.banner {
+  height: 100%;
+}
+
+.poster-and-info-div {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(transparent,rgba(0, 0, 0, 0.849));
+}
+
+.movie-title, .banner-description {
+  color:white;
+}
+
+.movie-title {
+  margin-left: 50px;
+  text-shadow: 1px 1px rgb(0, 0, 0)
+}
+
+.banner-description {
+  -webkit-animation: fadein 2s;
+  margin-top: 7px;
+  height: 130px;
+  width: 500px;
+}
+
+i.icon.angle.down:before {
+  color: white;
+  font-size: 30px;
+  bottom: 5px;
+  position: absolute;
+  left: 50%;
+}
+
+.release-year {
+  margin: 5px 50px;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.banner-description, .poster-img {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.poster-img {
+  -webkit-animation: fadein 2s;
+  width: 150px;
+  position: relative;
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.banner .nota {
+  margin-left: 50px;
+}
+
+.movie-info-div {
+/*   bottom: 0; */
+  width: auto;
+}
+
+#waiting {
+  color: white;
+  font-size: 2rem;
+  margin: 100px 0 0 300px;
+}
+/* End of Film Style */
+
+/* Responsividade */
+
+@media (max-width: 1000px) {
+  .poster-img {
+    display: none;
+  }                                                                                             
+  .poster-and-info-div {
+    flex-direction: column;
+  }
+  .banner div.btnsDiv {     
+    justify-content: flex-start;
+    margin: 40px 0 40px 50px;
+  }
+  p.banner-description {
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-div {
+    width: 100%;
+    height: max(60vh, 50px);
+    position: relative;
+    top: 55px;
+  }
+  .movie-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .movie-title, .release-year, .banner .nota{
+    margin-left: 30px;
+  }
+  .banner div.btnsDiv {
+    margin: 15px 0 20px 30px
+  }
+  p.banner-description {
+    display: none;
+  }
+}
